@@ -1,6 +1,4 @@
-# Sentimental-Analysis
-
-## article_scraper.ipynb ##
+#### article_scraper.ipynb ####
 
 This Python code is used to scrape articles from URLs specified in an Excel file 
 and save the scraped content as text files. The code reads the input file and creates 
@@ -14,7 +12,7 @@ from each 'p' tag. The code saves the extracted title and article content as a t
 the input Excel file.
 
 
-## cleaning_stopwords.ipynb ##
+#### cleaning_stopwords.ipynb ####
 
 This Python code is used to remove stopwords from text files containing scraped article content. 
 The code loads stopwords from multiple text files in a specified folder and creates a list of all 
@@ -28,7 +26,7 @@ the file, splits the text into words, removes stopwords from the list of words, 
 into a single string. Finally, it overwrites the original file with the cleaned text.
 
 
-## dict_positive_negative_words.ipynb ##
+#### dict_positive_negative_words.ipynb ####
 
 This Python code is used to remove stopwords from files containing positive and negative words. The code first 
 sets the folder containing the stopwords files and the folder containing the positive and negative words files. 
@@ -46,7 +44,7 @@ from multiple stopwords files, iterating over the positive and negative words fi
 from them, and overwriting the original files with the cleaned words list.
 
 
-## main.ipynb ##
+#### main.ipynb ####
 
 This Python code is used to calculate various readability and sentiment analysis metrics for a set of articles 
 and save the results to an output Excel file.
